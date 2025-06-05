@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(stb_img LANGUAGES CXX)
+project(stb_img LANGUAGES C)
 
 add_library(stb_img STATIC
     src/stb_image.cpp

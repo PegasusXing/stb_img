@@ -9,5 +9,3 @@ target_include_directories(stb_img PUBLIC
     $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
     $<INSTALL_INTERFACE:include>
 )
-
-message(STATUS "STB_IMG: Version ???")
